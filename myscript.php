@@ -6,3 +6,4 @@ echo $name;
 echo strlen($name);
 
 echo $password;
+echo strlen($password);
