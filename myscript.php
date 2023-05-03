@@ -7,3 +7,4 @@ echo strlen($name);
 
 echo $password;
 echo strlen($password);
+echo str_ireplace($password,"***",$password);
