@@ -1,10 +1,10 @@
 <?php
 
-$name = $_POST["name"];
-$password = $_POST["password"];
-echo $name;
-echo strlen($name);
+$word = $_POST["word"];
+$censorship = $_POST["censorship"];
+echo $word;
+echo strlen($word);
 
-echo $password;
-echo strlen($password);
-echo str_ireplace($password,"***",$password);
+    echo str_ireplace($censorship,"***",$word);
+    echo strlen($censorship);
+

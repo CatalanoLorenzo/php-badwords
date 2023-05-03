@@ -13,14 +13,16 @@
         <div class="card col-8">
             <form action="myscript.php" method="post">
                 <div class="mb-3">
-                  <label for="name" class="form-label">Name</label>
+                  <label for="word" class="form-label">Word</label>
                   <input type="text"
-                    class="form-control" name="name" id="name" aria-describedby="helpId" placeholder="">
+                    class="form-control" name="word" id="word" aria-describedby="helpId" placeholder="">
                   <small id="helpId" class="form-text text-muted">Help text</small>
                 </div>
                 <div class="mb-3">
-                  <label for="password" class="form-label">Password</label>
-                  <input type="password" class="form-control" name="password" id="password" placeholder="">
+                  <label for="censorship" class="form-label">Censorship</label>
+                  <input type="text"
+                    class="form-control" name="censorship" id="censorship" aria-describedby="helpId" placeholder="">
+                  <small id="helpId" class="form-text text-muted">Help text</small>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
                 <button type="reset" class="btn btn-primary">Reset</button>
